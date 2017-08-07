@@ -1,0 +1,38 @@
+{
+  "name": "eslint-config-chatur",
+  "version": "1.0.0",
+  "description": "An eslint configuration for the astute",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 6"
+  },
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sudo-suhas/eslint-config-chatur.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "shareable-configs",
+    "best-practices",
+    "eslint-config",
+    "code-style",
+    "javascript",
+    "linter-config"
+  ],
+  "authors": [
+    {
+      "name": "Suhas Karanth",
+      "email": "sudo.suhas@gmail.com",
+      "url": "github.com/sudo-suhas"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sudo-suhas/eslint-config-chatur/issues"
+  },
+  "homepage": "https://github.com/sudo-suhas/eslint-config-chatur#readme"
+}

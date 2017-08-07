@@ -63,6 +63,7 @@
     }
   },
   "dependencies": {
+    "eslint-plugin-eslint-comments": "^1.0.3",
     "lodash": "^4.17.4"
   }
 }

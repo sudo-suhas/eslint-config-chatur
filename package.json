@@ -54,15 +54,21 @@
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.0.0",
     "eslint": "^4.4.0",
+    "eslint-config-prettier": "^2.3.0",
     "eslint-plugin-lodash": "^2.4.4",
+    "eslint-plugin-prettier": "^2.1.2",
     "eslint-plugin-promise": "^3.5.0",
     "lint-staged": "^4.0.3",
-    "pre-commit": "^1.2.2"
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.5.3"
   },
   "peerDependencies": {
     "eslint": ">= 4.2.0",
+    "eslint-config-prettier": ">= 2.3.0",
     "eslint-plugin-lodash": ">= 2.4.4",
-    "eslint-plugin-promise": ">= 3.5.0"
+    "eslint-plugin-prettier": ">= 2.1.2",
+    "eslint-plugin-promise": ">= 3.5.0",
+    "prettier": ">= 1.5.3"
   },
   "dependencies": {
     "eslint-plugin-eslint-comments": "^1.0.3",

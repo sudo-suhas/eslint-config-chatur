@@ -43,5 +43,6 @@ module.exports = generateConfig(
             // disallow the use of `process.exit()`
             'no-process-exit': 'error'
         }
-    }
+    },
+    ['eslint-comments', 'node', 'unicorn']
 );

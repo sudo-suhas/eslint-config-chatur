@@ -44,5 +44,6 @@ module.exports = generateConfig(
             'no-process-exit': 'error'
         }
     },
-    ['eslint-comments', 'node', 'unicorn']
+    ['eslint-comments', 'node', 'unicorn'],
+    ['promise', 'lodash', 'prettier']
 );

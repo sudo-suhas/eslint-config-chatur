@@ -10,6 +10,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "test": "eslint .",
+    "lint-staged": "lint-staged",
     "cz": "git-cz",
     "cz:retry": "git-cz --retry"
   },
@@ -39,10 +40,22 @@
     "url": "https://github.com/sudo-suhas/eslint-config-chatur/issues"
   },
   "homepage": "https://github.com/sudo-suhas/eslint-config-chatur#readme",
+  "lint-staged": {
+    "**/*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "pre-commit": [
+    "lint-staged",
+    "test"
+  ],
   "devDependencies": {
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.0.0",
-    "eslint": "^4.4.0"
+    "eslint": "^4.4.0",
+    "lint-staged": "^4.0.3",
+    "pre-commit": "^1.2.2"
   },
   "config": {
     "commitizen": {

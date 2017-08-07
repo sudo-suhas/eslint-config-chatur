@@ -7,7 +7,9 @@
     "node": ">= 6"
   },
   "scripts": {
-    "test": "eslint ."
+    "test": "eslint .",
+    "cz": "git-cz",
+    "cz:retry": "git-cz --retry"
   },
   "repository": {
     "type": "git",
@@ -34,5 +36,14 @@
   "bugs": {
     "url": "https://github.com/sudo-suhas/eslint-config-chatur/issues"
   },
-  "homepage": "https://github.com/sudo-suhas/eslint-config-chatur#readme"
+  "homepage": "https://github.com/sudo-suhas/eslint-config-chatur#readme",
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }

@@ -1,1 +1,11 @@
+.vscode
+
+fixtures
+
+.eslintrc.yml
+
+.travis.yml
+
+experiment.js
+
 yarn.lock

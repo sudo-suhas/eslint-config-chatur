@@ -111,7 +111,7 @@ if (isInstalled('lodash')) {
 
             // https://github.com/wix/eslint-plugin-lodash/blob/master/docs/rules/prop-shorthand.md
             // Use/forbid property shorthand syntax.
-            'lodash/prop-shorthand': ['error', 'always'],
+            'lodash/prop-shorthand': ['error', 'never'],
 
             /********************
              * Preference over native

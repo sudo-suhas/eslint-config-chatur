@@ -1,0 +1,9 @@
+root: true
+extends:
+  - ../../index.js
+  - ../../lib/plugin-conf/eslint-comments.js
+  - ../../lib/plugin-conf/node.js
+  - ../../lib/plugin-conf/unicorn.js
+  - ../../lib/plugin-conf/promise.js
+  - ../../lib/plugin-conf/lodash.js
+  - ../../lib/plugin-conf/prettier.js

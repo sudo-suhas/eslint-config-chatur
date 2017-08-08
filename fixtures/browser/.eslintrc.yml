@@ -1,0 +1,10 @@
+root: true
+extends:
+  - ../../browser.js
+  - ../../lib/plugin-conf/eslint-comments.js
+  - ../../lib/plugin-conf/unicorn.js
+  - ../../lib/plugin-conf/promise.js
+  - ../../lib/plugin-conf/lodash.js
+  - ../../lib/plugin-conf/prettier.js
+  - ../../lib/plugin-conf/compat.js
+  - ../../lib/plugin-conf/import.js

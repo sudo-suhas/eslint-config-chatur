@@ -128,7 +128,8 @@ module.exports = generateConfig(
         env: {
             es6: true,
             node: false,
-            browser: true
+            browser: true,
+            commonjs: true
         },
         parserOptions: {
             ecmaVersion: 8,

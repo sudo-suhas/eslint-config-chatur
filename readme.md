@@ -16,6 +16,7 @@ Simply define your `.eslintrc.json` (or add a `eslintConfig` object to `package.
 If you prefer YAML:
 ```yml
 # .eslintrc.yml
+root: true
 extends: chatur
 ```
 
@@ -69,6 +70,7 @@ $ npm install --save-dev eslint eslint-config-chatur \
 **Eslint configuration**:
 ```yml
 # .eslintrc.yml
+root: true
 extends: chatur
 ```
 
@@ -105,6 +107,8 @@ This allows eslint to handle dynamic imports using `import('module-name')`.
 
 **Eslint configuration**:
 ```yml
+# .eslintrc.yml
+root: true
 extends: chatur/browser
 ```
 
@@ -137,6 +141,8 @@ $ npm install --save-dev eslint eslint-config-chatur \
 
 **Eslint configuration**:
 ```yml
+# .eslintrc.yml
+root: true
 extends: chatur/test
 ```
 

@@ -3,6 +3,7 @@ extends:
   - ../../browser.js
   - ../../lib/plugin-conf/eslint-comments.js
   - ../../lib/plugin-conf/unicorn.js
+  - ../../lib/plugin-conf/babel.js
   - ../../lib/plugin-conf/promise.js
   - ../../lib/plugin-conf/lodash.js
   - ../../lib/plugin-conf/prettier.js

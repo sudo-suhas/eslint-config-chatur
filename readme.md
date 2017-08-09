@@ -87,7 +87,7 @@ extends: chatur
 
 **Installation**:
 ```shell
-$ npm install --save-dev eslint eslint-config-chatur \
+$ npm install --save-dev eslint babel-eslint eslint-config-chatur \
     eslint-plugin-promise \
     eslint-plugin-lodash \
     eslint-plugin-prettier eslint-config-prettier \
@@ -95,8 +95,11 @@ $ npm install --save-dev eslint eslint-config-chatur \
     eslint-plugin-import
 
 # Single line for windows
-λ npm install --save-dev eslint eslint-config-chatur eslint-plugin-promise eslint-plugin-lodash eslint-plugin-prettier eslint-config-prettier eslint-plugin-compat eslint-plugin-import
+λ npm install --save-dev eslint babel-eslint eslint-config-chatur eslint-plugin-promise eslint-plugin-lodash eslint-plugin-prettier eslint-config-prettier eslint-plugin-compat eslint-plugin-import
 ```
+
+**NOTE**: Using the browser eslint configuration requires `babel-eslint`(not optional).
+This allows eslint to handle dynamic imports using `import('module-name')`.
 
 **Eslint configuration**:
 ```yml

@@ -132,6 +132,7 @@ module.exports = generateConfig(
             commonjs: true
         },
         parserOptions: {
+            parser: 'babel-eslint',
             ecmaVersion: 8,
             sourceType: 'module',
             ecmaFeatures: {

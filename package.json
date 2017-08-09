@@ -52,6 +52,7 @@
     "test"
   ],
   "devDependencies": {
+    "babel-eslint": "^7.2.3",
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.0.0",
     "eslint": "^4.4.0",
@@ -69,6 +70,7 @@
     "semantic-release": "^6.3.6"
   },
   "peerDependencies": {
+    "babel-eslint": ">= 7.2.3",
     "eslint": ">= 4.2.0",
     "eslint-config-prettier": ">= 2.3.0",
     "eslint-plugin-ava": ">= 4.2.1",

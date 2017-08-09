@@ -132,6 +132,7 @@ module.exports = generateConfig(
             commonjs: true
         },
         parserOptions: {
+            parser: 'babel-eslint',
             ecmaVersion: 8,
             sourceType: 'module',
             ecmaFeatures: {
@@ -143,5 +144,5 @@ module.exports = generateConfig(
     },
     ['eslint-comments', 'unicorn'],
     // TODO: Configure rules for plugin mysticatea/vue-eslint-parser
-    ['promise', 'lodash', 'prettier', 'compat', 'import']
+    ['babel', 'promise', 'lodash', 'prettier', 'compat', 'import']
 );

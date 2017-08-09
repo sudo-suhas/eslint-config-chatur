@@ -79,6 +79,7 @@ extends: chatur
   * [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
 
 **Optional plugins**:
+  * [eslint-plugin-babel](https://github.com/babel/eslint-plugin-babel)
   * [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)
   * [eslint-plugin-lodash](https://github.com/wix/eslint-plugin-lodash)
   * [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)(needs [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier))
@@ -88,6 +89,7 @@ extends: chatur
 **Installation**:
 ```shell
 $ npm install --save-dev eslint babel-eslint eslint-config-chatur \
+    eslint-plugin-babel \
     eslint-plugin-promise \
     eslint-plugin-lodash \
     eslint-plugin-prettier eslint-config-prettier \
@@ -95,7 +97,7 @@ $ npm install --save-dev eslint babel-eslint eslint-config-chatur \
     eslint-plugin-import
 
 # Single line for windows
-λ npm install --save-dev eslint babel-eslint eslint-config-chatur eslint-plugin-promise eslint-plugin-lodash eslint-plugin-prettier eslint-config-prettier eslint-plugin-compat eslint-plugin-import
+λ npm install --save-dev eslint babel-eslint eslint-config-chatur eslint-plugin-babel eslint-plugin-promise eslint-plugin-lodash eslint-plugin-prettier eslint-config-prettier eslint-plugin-compat eslint-plugin-import
 ```
 
 **NOTE**: Using the browser eslint configuration requires `babel-eslint`(not optional).

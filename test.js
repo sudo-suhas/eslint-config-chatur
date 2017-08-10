@@ -32,11 +32,11 @@ const rules = {
 
 const avaInstalled = isInstalled('ava');
 
-if (
-    isInstalled(`eslint-plugin-node`) &&
-    (avaInstalled || isInstalled(`jest`))
-) {
-    rules['node/no-unsupported-features'] = 'off';
+if (avaInstalled || isInstalled('jest')) {
+    rules['node/no-unsupported-features'] = [
+        'error',
+        { version: 8, ignores: ['modules'] }
+    ];
 }
 
 if (isInstalled('lodash') && avaInstalled) {

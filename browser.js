@@ -85,7 +85,7 @@ const rules = {
 if (isInstalled('lodash')) {
     exceptions.push('_');
 
-    if (isInstalled(`eslint-plugin-lodash`)) {
+    if (isInstalled('eslint-plugin-lodash')) {
         Object.assign(rules, {
             // It is recommended to use https://github.com/lodash/lodash-webpack-plugin
             // if `lodash` is being used in the browser. Disabling rules which would conflict.

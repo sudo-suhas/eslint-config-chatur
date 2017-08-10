@@ -1,5 +1,7 @@
 # eslint-config-chatur
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/sudo-suhas/eslint-config-chatur.svg)](https://greenkeeper.io/)
+
 > An eslint configuration for the astute
 
 ## Installing / Getting started

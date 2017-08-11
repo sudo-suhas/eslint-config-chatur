@@ -4,7 +4,7 @@
   "description": "An eslint configuration for the astute",
   "main": "index.js",
   "engines": {
-    "node": ">= 6"
+    "node": ">= 4"
   },
   "scripts": {
     "lint": "eslint .",

@@ -1,6 +1,6 @@
 'use strict';
 
-const { isInstalled, generateConfig } = require('./lib/util');
+const util = require('./lib/util');
 
 const rules = {
     /********************
@@ -30,20 +30,20 @@ const rules = {
     'no-process-exit': 'error'
 };
 
-const avaInstalled = isInstalled('ava');
+const avaInstalled = util.isInstalled('ava');
 
-if (avaInstalled || isInstalled('jest')) {
+if (avaInstalled || util.isInstalled('jest')) {
     rules['node/no-unsupported-features'] = [
         'error',
         { version: 8, ignores: ['modules'] }
     ];
 }
 
-if (isInstalled('lodash') && avaInstalled) {
+if (util.isInstalled('lodash') && avaInstalled) {
     rules['id-length'] = ['warn', { exceptions: ['t', '_'] }];
 }
 
-module.exports = generateConfig(
+module.exports = util.generateConfig(
     {
         env: {
             es6: true,

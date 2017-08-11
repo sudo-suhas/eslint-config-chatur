@@ -1,8 +1,8 @@
 'use strict';
 
-const { generateConfig } = require('./lib/util');
+const util = require('./lib/util');
 
-module.exports = generateConfig(
+module.exports = util.generateConfig(
     {
         env: {
             es6: true,

@@ -1,6 +1,7 @@
 # eslint-config-chatur
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/sudo-suhas/eslint-config-chatur.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/sudo-suhas/eslint-config-chatur.svg?style=flat-square)](https://greenkeeper.io/)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 > An eslint configuration for the astute
 
@@ -38,6 +39,24 @@ There are 2 types of plugins used for each configuration:
   * **Optional** - These plugins are optional and also depend on the libraries you are using.
     For example, if `lodash` is installed `eslint-plugin-lodash` can be installed to enable
     lodash specific rules. So if you do not want some plugin to be enabled, don't install it :sunglasses:.
+
+**NOTE**: You will probably get warnings when you install this package:
+
+```
+λ npm i eslint-config-chatur
+npm WARN eslint-config-chatur@1.2.0 requires a peer of babel-eslint@>= 7.2.3 but none was installed.
+npm WARN eslint-config-chatur@1.2.0 requires a peer of eslint-config-prettier@>= 2.3.0 but none was installed.
+npm WARN eslint-config-chatur@1.2.0 requires a peer of eslint-plugin-ava@>= 4.2.1 but none was installed.
+npm WARN eslint-config-chatur@1.2.0 requires a peer of eslint-plugin-babel@>= 4.1.2 but none was installed.
+npm WARN eslint-config-chatur@1.2.0 requires a peer of eslint-plugin-compat@>= 1.0.4 but none was installed.
+npm WARN eslint-config-chatur@1.2.0 requires a peer of eslint-plugin-import@>= 2.7.0 but none was installed.
+npm WARN eslint-config-chatur@1.2.0 requires a peer of eslint-plugin-jest@>= 20.0.3 but none was installed.
+npm WARN eslint-config-chatur@1.2.0 requires a peer of eslint-plugin-lodash@>= 2.4.4 but none was installed.
+npm WARN eslint-config-chatur@1.2.0 requires a peer of eslint-plugin-prettier@>= 2.1.2 but none was installed.
+npm WARN eslint-config-chatur@1.2.0 requires a peer of eslint-plugin-promise@>= 3.5.0 but none was installed.
+```
+
+npm currently does not have the concept of optional peer dependencies. You can safely ignore these warnings.
 
 ## Configuration
 

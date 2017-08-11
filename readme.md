@@ -22,7 +22,7 @@ root: true
 extends: chatur
 ```
 
-Node.js 6 or above is required. However, this can be changed to 4 on request.
+Node.js 4 or above is required.
 
 `eslint-config-chatur` provides eslint configuration for three commonly used environments:
   * [node.js](#node.js)

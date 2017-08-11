@@ -1,6 +1,6 @@
 'use strict';
 
-const { isInstalled, generateConfig } = require('./lib/util');
+const util = require('./lib/util');
 
 const exceptions = ['h', 'x', 'y', 'r'];
 
@@ -82,10 +82,10 @@ const rules = {
     'no-restricted-imports': nodeJsModules
 };
 
-if (isInstalled('lodash')) {
+if (util.isInstalled('lodash')) {
     exceptions.push('_');
 
-    if (isInstalled('eslint-plugin-lodash')) {
+    if (util.isInstalled('eslint-plugin-lodash')) {
         Object.assign(rules, {
             // It is recommended to use https://github.com/lodash/lodash-webpack-plugin
             // if `lodash` is being used in the browser. Disabling rules which would conflict.
@@ -123,7 +123,7 @@ if (isInstalled('lodash')) {
     }
 }
 
-module.exports = generateConfig(
+module.exports = util.generateConfig(
     {
         env: {
             es6: true,

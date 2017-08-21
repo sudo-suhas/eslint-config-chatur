@@ -41,7 +41,9 @@ module.exports = util.generateConfig(
             'no-process-env': 'error',
 
             // disallow the use of `process.exit()`
-            'no-process-exit': 'error'
+            // http://eslint.org/docs/rules/no-process-exit
+            // delegate to `unicorn/no-process-exit`
+            'no-process-exit': 'off'
         }
     },
     ['eslint-comments', 'node', 'unicorn'],

@@ -27,7 +27,8 @@ const rules = {
 
     // disallow the use of `process.exit()`
     // http://eslint.org/docs/rules/no-process-exit
-    'no-process-exit': 'error'
+    // delegate to `unicorn/no-process-exit`
+    'no-process-exit': 'off'
 };
 
 const avaInstalled = util.isInstalled('ava');

@@ -13,6 +13,7 @@ Quick start - `npm install --save-dev eslint eslint-config-chatur`
 Simply define your `.eslintrc.json` (or add a `eslintConfig` object to `package.json`) like so:
 ```js
 {
+  "root": true,
   "extends": "chatur"
 }
 ```

@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "test": "eslint .",
-    "lint-staged": "lint-staged"
+    "precommit": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -38,16 +38,6 @@
     "url": "https://github.com/sudo-suhas/eslint-config-chatur/issues"
   },
   "homepage": "https://github.com/sudo-suhas/eslint-config-chatur#readme",
-  "lint-staged": {
-    "**/*.js": [
-      "eslint --fix",
-      "git add"
-    ]
-  },
-  "pre-commit": [
-    "lint-staged",
-    "test"
-  ],
   "devDependencies": {
     "babel-eslint": "^8.0.1",
     "eslint": "^4.4.0",
@@ -60,8 +50,7 @@
     "eslint-plugin-lodash": "^2.4.5",
     "eslint-plugin-prettier": "^2.3.1",
     "eslint-plugin-promise": "^3.5.0",
-    "lint-staged": "^4.0.3",
-    "pre-commit": "^1.2.2",
+    "husky": "^0.14.3",
     "prettier": "^1.7.4"
   },
   "peerDependencies": {

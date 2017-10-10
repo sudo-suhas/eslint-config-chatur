@@ -143,6 +143,5 @@ module.exports = util.generateConfig(
         rules
     },
     ['eslint-comments', 'unicorn'],
-    // TODO: Configure rules for plugin mysticatea/vue-eslint-parser
-    ['babel', 'promise', 'lodash', 'prettier', 'compat', 'import']
+    ['babel', 'promise', 'lodash', 'prettier', 'vue', 'compat', 'import']
 );

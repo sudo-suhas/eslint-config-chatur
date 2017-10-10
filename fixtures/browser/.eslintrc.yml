@@ -9,3 +9,5 @@ extends:
   - ../../lib/plugin-conf/prettier.js
   - ../../lib/plugin-conf/compat.js
   - ../../lib/plugin-conf/import.js
+  - ../../lib/plugin-conf/vue.js
+

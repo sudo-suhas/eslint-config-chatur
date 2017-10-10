@@ -3,41 +3,16 @@
   "version": "0.0.0-development",
   "description": "An eslint configuration for the astute",
   "main": "index.js",
-  "engines": {
-    "node": ">= 4"
-  },
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "test": "eslint .",
     "precommit": "eslint ."
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sudo-suhas/eslint-config-chatur.git"
+  "engines": {
+    "node": ">= 4"
   },
-  "keywords": [
-    "eslint",
-    "eslintconfig",
-    "shareable-configs",
-    "best-practices",
-    "eslint-config",
-    "code-style",
-    "javascript",
-    "linter-config"
-  ],
-  "authors": [
-    {
-      "name": "Suhas Karanth",
-      "email": "sudo.suhas@gmail.com",
-      "url": "github.com/sudo-suhas"
-    }
-  ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sudo-suhas/eslint-config-chatur/issues"
-  },
-  "homepage": "https://github.com/sudo-suhas/eslint-config-chatur#readme",
   "devDependencies": {
     "babel-eslint": "^8.0.1",
     "eslint": "^4.4.0",
@@ -62,5 +37,30 @@
     "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-unicorn": "^2.1.2",
     "lodash": "^4.17.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sudo-suhas/eslint-config-chatur.git"
+  },
+  "homepage": "https://github.com/sudo-suhas/eslint-config-chatur#readme",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "shareable-configs",
+    "best-practices",
+    "eslint-config",
+    "code-style",
+    "javascript",
+    "linter-config"
+  ],
+  "authors": [
+    {
+      "name": "Suhas Karanth",
+      "email": "sudo.suhas@gmail.com",
+      "url": "github.com/sudo-suhas"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/sudo-suhas/eslint-config-chatur/issues"
   }
 }

@@ -41,24 +41,6 @@ There are 2 types of plugins used for each configuration:
     For example, if `lodash` is installed `eslint-plugin-lodash` can be installed to enable
     lodash specific rules. So if you do not want some plugin to be enabled, don't install it :sunglasses:.
 
-**NOTE**: You will probably get warnings when you install this package:
-
-```
-λ npm i eslint-config-chatur
-npm WARN eslint-config-chatur@1.2.0 requires a peer of babel-eslint@>= 7.2.3 but none was installed.
-npm WARN eslint-config-chatur@1.2.0 requires a peer of eslint-config-prettier@>= 2.3.0 but none was installed.
-npm WARN eslint-config-chatur@1.2.0 requires a peer of eslint-plugin-ava@>= 4.2.1 but none was installed.
-npm WARN eslint-config-chatur@1.2.0 requires a peer of eslint-plugin-babel@>= 4.1.2 but none was installed.
-npm WARN eslint-config-chatur@1.2.0 requires a peer of eslint-plugin-compat@>= 1.0.4 but none was installed.
-npm WARN eslint-config-chatur@1.2.0 requires a peer of eslint-plugin-import@>= 2.7.0 but none was installed.
-npm WARN eslint-config-chatur@1.2.0 requires a peer of eslint-plugin-jest@>= 20.0.3 but none was installed.
-npm WARN eslint-config-chatur@1.2.0 requires a peer of eslint-plugin-lodash@>= 2.4.4 but none was installed.
-npm WARN eslint-config-chatur@1.2.0 requires a peer of eslint-plugin-prettier@>= 2.1.2 but none was installed.
-npm WARN eslint-config-chatur@1.2.0 requires a peer of eslint-plugin-promise@>= 3.5.0 but none was installed.
-```
-
-npm currently does not have the concept of optional peer dependencies. You can safely ignore these warnings.
-
 ## Configuration
 
 Configuration for `exlint-config-chatur` is handled through your dependencies itself.

@@ -20,5 +20,5 @@ script: yarn run test
 after_script: greenkeeper-lockfile-upload
 
 after_success:
-  - yarn global add semantic-release
-  - semantic-release pre && npm publish && semantic-release post
+  - yarn global add travis-deploy-once
+  - travis-deploy-once "yarn global add semantic-release@12 && semantic-release"

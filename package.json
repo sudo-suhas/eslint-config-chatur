@@ -30,11 +30,11 @@
     "prettier": "^1.10.2"
   },
   "peerDependencies": {
-    "eslint": ">= 4.2.0"
+    "eslint": ">= 4.7.0"
   },
   "dependencies": {
     "app-root-path": "^2.0.1",
-    "eslint-plugin-eslint-comments": "^1.0.3",
+    "eslint-plugin-eslint-comments": "^2.0.2",
     "eslint-plugin-node": "^5.2.1",
     "eslint-plugin-unicorn": "^2.1.2",
     "lodash": "^4.17.4"

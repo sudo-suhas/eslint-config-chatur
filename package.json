@@ -30,7 +30,7 @@
     "prettier": "^1.10.2"
   },
   "peerDependencies": {
-    "eslint": ">= 4.2.0"
+    "eslint": ">= 4.7.0"
   },
   "dependencies": {
     "app-root-path": "^2.0.1",

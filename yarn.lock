@@ -116,9 +116,10 @@ ansi-styles@^3.1.0:
   dependencies:
     color-convert "^1.9.0"
 
-app-root-path@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/app-root-path/-/app-root-path-2.0.1.tgz#cd62dcf8e4fd5a417efc664d2e5b10653c651b46"
+app-root-path@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/app-root-path/-/app-root-path-2.2.0.tgz#4583e2f2095563b10a737b8bbd03a640fca5c0cc"
+  integrity sha512-qbXcJgmuLGNwO7FH2WrtoJpA0mpcm0ZFQZPm6RV7ZLfA0QR3bQFpoij33x74+u3Zn58JDy5Jc/Z/LXKxTvh1Rw==
 
 argparse@^1.0.7:
   version "1.0.9"

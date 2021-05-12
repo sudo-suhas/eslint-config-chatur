@@ -33,7 +33,7 @@
     "eslint": ">= 4.7.0"
   },
   "dependencies": {
-    "app-root-path": "^2.0.1",
+    "app-root-path": "^3.0.0",
     "eslint-plugin-eslint-comments": "^2.0.2",
     "eslint-plugin-node": "^6.0.0",
     "eslint-plugin-unicorn": "^3.0.1",
